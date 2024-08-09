@@ -4,15 +4,15 @@ export interface Transaction {
     date: Date,
 }
 
-export interface moneyTransfer extends Transaction {
-    ammount: Number,
-    sender: String,
-    receiver: String,
+export interface MoneyTransfer extends Transaction {
+    ammount: number,
+    sender: string,
+    receiver: string,
     type: TransferType
 }
 
-export interface withdrawal extends Transaction {
-    ammount: Number
+export interface Withdrawal extends Transaction {
+    ammount: number
 }
 
 enum Status {

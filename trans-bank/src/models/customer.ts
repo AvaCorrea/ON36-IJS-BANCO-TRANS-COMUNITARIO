@@ -1,7 +1,7 @@
 export interface Customer {
     id: number,
-    name: String,
-    cpfDocument: String,
-    adress: String,
-    cellphoneNumber: String
+    name: string,
+    cpfDocument: string,
+    adress: string,
+    cellphoneNumber: string
 }

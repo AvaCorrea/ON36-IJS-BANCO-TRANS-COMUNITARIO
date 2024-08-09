@@ -1,14 +1,14 @@
-export interface Account {
-    assignedCustomerId: String,
-    balance: Number,
+export interface AccountInterface {
+    assignedCustomerId: string,
+    balance: number,
     transactionHistory: [],
     activeServices: []
 }
 
-export interface SavingsAccount extends Account {
-    interestRate: Number
+export interface SavingsAccountInterface extends AccountInterface {
+    interestRate: number
 }
 
-export interface CheckingAccount extends Account {
-    specialCheckLimit: Number
+export interface CheckingAccountInterface extends AccountInterface {
+    specialCheckLimit: number
 }
