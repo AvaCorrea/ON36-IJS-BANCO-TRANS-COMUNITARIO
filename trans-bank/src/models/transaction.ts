@@ -5,14 +5,14 @@ export interface Transaction {
 }
 
 export interface MoneyTransfer extends Transaction {
-    ammount: number,
+    amount: number,
     sender: string,
     receiver: string,
     type: TransferType
 }
 
 export interface Withdrawal extends Transaction {
-    ammount: number
+    amount: number
 }
 
 enum Status {

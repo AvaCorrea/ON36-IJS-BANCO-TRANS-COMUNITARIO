@@ -1,4 +1,5 @@
 export interface AccountInterface {
+    accountId: string
     assignedCustomerId: string,
     balance: number,
     transactionHistory: [],
